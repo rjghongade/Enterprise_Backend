@@ -1,0 +1,6 @@
+[
+    { "label": "My Account", "path": "/adminaccount" },
+    { "label": "Settings", "path": "/adminsetting" },
+    { "label": "Notifications", "path": "/adminnotification" },
+    { "label": "Logout", "path": "/" }
+  ]

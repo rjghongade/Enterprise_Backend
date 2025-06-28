@@ -122,6 +122,9 @@ app.get('/users/:id', authenticateToken, (req, res) => {
 });
 
 
+app.get('/health', (req, res) => {
+  res.json({ status: 'OK', timestamp: new Date() });
+});
 
 // Start server
 const PORT = process.env.PORT || 3001;

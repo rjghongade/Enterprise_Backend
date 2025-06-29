@@ -29,7 +29,7 @@ import Dashboard from "./routes/dashboard/Dashbord";
 import Database from "./routes/admindashbord/Database";
 import PcPerformance from "./routes/admindashbord/PcPerformance";
 import USBLog from "./routes/admindashbord/usb";
-import ADMINThreatIntelligence from "./routes/admindashbord/threatIntelligence";
+import ADMINThreatIntelligence from "./routes/admindashbord/ThreatIntelligence";
 import ThreatIntelligence from "./routes/dashboard/ThreatIntelligence";
 import MyAccount from "./routes/dashboard/MyAccount";
 import ADMINMyAccount from "./routes/admindashbord/myaccount";

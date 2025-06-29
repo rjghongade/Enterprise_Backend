@@ -4,9 +4,8 @@ import Layout from "@/routes/layout";
 import SIEM from "./routes/dashboard/SIEM";
 import SOAR from "./routes/dashboard/Soar";
 import XDR from "./routes/dashboard/XDR";
-
 import MachineLearningSecurity from "./routes/dashboard/MachineLearningSecurity";
-import MyAccount from "./routes/dashboard/MyAccount";
+
 import EDR from "./routes/dashboard/EDR";
 import NDR from "./routes/dashboard/NDR";
 import UEBA from "./routes/dashboard/UEBA";
@@ -22,9 +21,8 @@ import ADMINXDR from "./routes/admindashbord/XDR";
 import ADMINEDR from "./routes/admindashbord/EDR";
 import ADMINUEBA from "./routes/admindashbord/ueba";
 import ADMINNDR from "./routes/admindashbord/NDR";
-
 import ADMINMachineLearningSecurity from "./routes/admindashbord/machineLearningSecurity";
-import ADMINMyAccount from "./routes/admindashbord/myaccount";
+
 import ADMINNotification from "./routes/admindashbord/Notifaction";
 import ADMINSettings from "./routes/admindashbord/Settings";
 import Dashboard from "./routes/dashboard/Dashbord";
@@ -33,6 +31,8 @@ import PcPerformance from "./routes/admindashbord/PcPerformance";
 import USBLog from "./routes/admindashbord/usb";
 import ADMINThreatIntelligence from "./routes/admindashbord/threatIntelligence";
 import ThreatIntelligence from "./routes/dashboard/ThreatIntelligence";
+import MyAccount from "./routes/dashboard/MyAccount";
+import ADMINMyAccount from "./routes/admindashbord/myaccount";
 
 const router = createBrowserRouter([
   {

@@ -34,9 +34,10 @@ import ThreatIntelligence from "./routes/dashboard/ThreatIntelligence";
 import MyAccount from "./routes/dashboard/MyAccount";
 import ADMINMyAccount from "./routes/admindashbord/myaccount";
 import MachineLearningSecurity from "./routes/dashboard/MachineLearningSecurity";
-import ADMINMachineLearningSecurity from "./routes/admindashbord/machineLearningSecurity";
+
 import UEBA from "./routes/dashboard/UEBA";
 import ADMINUEBA from "./routes/admindashbord/ueba";
+import ADMINMachineLearningSecurity from "./routes/admindashbord/machineLearningSecurity";
 
 const router = createBrowserRouter([
   {

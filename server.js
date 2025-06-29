@@ -70,8 +70,8 @@ const allowedTables = new Set([
   'cloud_alerts_xdr', 'collaboration_log_soar', 'edr_alerts', 'edr_analyst_logs',
   'edr_endpoints', 'endpoints_xdr', 'exclusion_history_soar', 'forensic_analysis',
   'incident', 'ip_analysis', 'network_alerts_xdr', 'network_logs',
-  'phishing_emails_soar', 'processlog1', 'response_action_log_soar', 'threats_xdr',
-  'threat_timeline', 'ti_feed_soar', 'usblog', 'user_activity', 'filelog'
+  'phishing_emails_soar', 'ProcessLog1', 'response_action_log_soar', 'threats_xdr',
+  'threat_timeline', 'ti_feed_soar', 'USBLog', 'user_activity', 'filelog'
 ]);
 
 app.get('/api/:table', authenticateToken, (req, res) => {

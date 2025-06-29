@@ -1,0 +1,7 @@
+[
+    { "label": "My Account", "path": "/account" },
+    { "label": "Settings", "path": "/setting" },
+    { "label": "Notifications", "path": "/notification" },
+    { "label": "Logout", "path": "/" }
+  ]
+  

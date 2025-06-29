@@ -15,7 +15,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await axios.get(`http://localhost:3001/users/all-users`);
+        const res = await axios.get(`http://65.1.1.186:3000/users/all-users`);
         setUsers(res.data);
       } catch (error) {
         console.error("❌ Error fetching users:", error);

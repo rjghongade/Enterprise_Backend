@@ -22,7 +22,7 @@ import ADMINXDR from "./routes/admindashbord/XDR";
 import ADMINEDR from "./routes/admindashbord/EDR";
 import ADMINUEBA from "./routes/admindashbord/ueba";
 import ADMINNDR from "./routes/admindashbord/NDR";
-import ADMINThreatIntelligence from "./routes/admindashbord/threatIntelligence";
+
 import ADMINMachineLearningSecurity from "./routes/admindashbord/machineLearningSecurity";
 import ADMINMyAccount from "./routes/admindashbord/myaccount";
 import ADMINNotification from "./routes/admindashbord/Notifaction";
@@ -31,6 +31,7 @@ import Dashboard from "./routes/dashboard/Dashbord";
 import Database from "./routes/admindashbord/Database";
 import PcPerformance from "./routes/admindashbord/PcPerformance";
 import USBLog from "./routes/admindashbord/usb";
+import ADMINThreatIntelligence from "./routes/admindashbord/threatIntelligence";
 
 const router = createBrowserRouter([
   {

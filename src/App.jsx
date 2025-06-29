@@ -4,7 +4,7 @@ import Layout from "@/routes/layout";
 import SIEM from "./routes/dashboard/SIEM";
 import SOAR from "./routes/dashboard/Soar";
 import XDR from "./routes/dashboard/XDR";
-import ThreatIntelligence from "./routes/dashboard/ThreatIntelligence";
+
 import MachineLearningSecurity from "./routes/dashboard/MachineLearningSecurity";
 import MyAccount from "./routes/dashboard/MyAccount";
 import EDR from "./routes/dashboard/EDR";
@@ -32,6 +32,7 @@ import Database from "./routes/admindashbord/Database";
 import PcPerformance from "./routes/admindashbord/PcPerformance";
 import USBLog from "./routes/admindashbord/usb";
 import ADMINThreatIntelligence from "./routes/admindashbord/threatIntelligence";
+import ThreatIntelligence from "./routes/dashboard/ThreatIntelligence";
 
 const router = createBrowserRouter([
   {

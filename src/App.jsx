@@ -8,7 +8,7 @@ import XDR from "./routes/dashboard/XDR";
 
 import EDR from "./routes/dashboard/EDR";
 import NDR from "./routes/dashboard/NDR";
-import UEBA from "./routes/dashboard/UEBA";
+
 import Notification from "./routes/dashboard/Notifaction";
 import Settings from "./routes/dashboard/Settings";
 import Login from "./routes/dashboard/login";
@@ -19,7 +19,7 @@ import ADMINSIEM from "./routes/admindashbord/SIEM";
 import ADMINSOAR from "./routes/admindashbord/Soar";
 import ADMINXDR from "./routes/admindashbord/XDR";
 import ADMINEDR from "./routes/admindashbord/EDR";
-import ADMINUEBA from "./routes/admindashbord/ueba";
+
 import ADMINNDR from "./routes/admindashbord/NDR";
 
 
@@ -35,6 +35,8 @@ import MyAccount from "./routes/dashboard/MyAccount";
 import ADMINMyAccount from "./routes/admindashbord/myaccount";
 import MachineLearningSecurity from "./routes/dashboard/MachineLearningSecurity";
 import ADMINMachineLearningSecurity from "./routes/admindashbord/machineLearningSecurity";
+import UEBA from "./routes/dashboard/UEBA";
+import ADMINUEBA from "./routes/admindashbord/ueba";
 
 const router = createBrowserRouter([
   {
